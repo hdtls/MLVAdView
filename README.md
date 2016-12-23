@@ -35,12 +35,9 @@ Alternatively you can directly add the source files to your project.
 3. Include MLVAlertKit wherever you need it with `#import "MLVAdView.h"`.
 
 ## Usage
-```Objective-C
-```
-Init adView and add it to view where you want display ads, than set dataSource and delegate
+Init adView and add it to view where you want display ads, than set dataSource
 
 ```
-adView.delegate = self;
 adView.dataSource = self;
 ```
 Imp required dataSource method:
@@ -51,11 +48,18 @@ Imp required dataSource method:
 ```
 If you want add a header or footer on it, just creat a new view asign it to adViewHeader/adViewFooter
 ```
-UIView *header = UIView.new;
+UIView *header = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 0, 20.0)];
 adView.adViewHeader = header;
 
-UIView *footer = UIView.new;
+UIView *footer = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 0, 30.0)];
 adView.adViewFooter = footer;
+```
+
+Delegate of MLVAdView help you observer your touches response and scroll status
+```
+- adView:shouldSelectItemAtIndex:
+- adView:didSelectedViewAtIndex:
+- adView:willDisplayAd:forItemAtIndex:
 ```
 
 For more example, downloads [MLVAdView](https://github.com/Melvyndev/MLVAdView/archive/master.zip) an try out the iPhone example app
