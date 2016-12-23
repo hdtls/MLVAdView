@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B1E9F1221E0CB30A000EADB6 /* MLVAdView.h in Headers */ = {isa = PBXBuildFile; fileRef = B1E9F1201E0CB30A000EADB6 /* MLVAdView.h */; };
-		B1E9F1771E0CB8FF000EADB6 /* MLVAdCell.h in Headers */ = {isa = PBXBuildFile; fileRef = B1E9F1731E0CB8FF000EADB6 /* MLVAdCell.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		B1E9F1771E0CB8FF000EADB6 /* MLVAdCell.h in Headers */ = {isa = PBXBuildFile; fileRef = B1E9F1731E0CB8FF000EADB6 /* MLVAdCell.h */; };
 		B1E9F1781E0CB8FF000EADB6 /* MLVAdCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B1E9F1741E0CB8FF000EADB6 /* MLVAdCell.m */; };
 		B1E9F1791E0CB8FF000EADB6 /* MLVAdView.h in Headers */ = {isa = PBXBuildFile; fileRef = B1E9F1751E0CB8FF000EADB6 /* MLVAdView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B1E9F17A1E0CB8FF000EADB6 /* MLVAdView.m in Sources */ = {isa = PBXBuildFile; fileRef = B1E9F1761E0CB8FF000EADB6 /* MLVAdView.m */; };
@@ -89,8 +89,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B1E9F1791E0CB8FF000EADB6 /* MLVAdView.h in Headers */,
-				B1E9F1771E0CB8FF000EADB6 /* MLVAdCell.h in Headers */,
 				B1E9F1221E0CB30A000EADB6 /* MLVAdView.h in Headers */,
+				B1E9F1771E0CB8FF000EADB6 /* MLVAdCell.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
